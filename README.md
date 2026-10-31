@@ -64,5 +64,171 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-samva-dev is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://samva.dev/
+Samva provides a developer-friendly Email API platform enabling transactional, inbound, and campaign email sending, along with webhook events and a hosted MCP server for AI agents. It offers a TypeScript SDK, CLI, and REST endpoints, supporting domain verification, template management, and integration with WhatsApp soon. Ideal for SaaS apps, support teams, and businesses needing reliable email communication.
+
+**Areas:** Company · Email · API · SaaS · Developer
+
+## samva-dev on APIs.io
+
+Everything profiled for samva-dev is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/samva-dev/](https://apis.io/providers/samva-dev/)** — or go straight to one of the APIs or properties below.
+
+### APIs (34)
+
+- [samva-dev Agents API](https://apis.io/apis/samva-dev/samva-dev-agents-api/) — Agents that answer conversations on your mailbox endpoints, with a draft, published versions, and rules for supervision, hours, and staff takeover
+- [samva-dev Analytics API](https://apis.io/apis/samva-dev/samva-dev-analytics-api/) — Messaging analytics, channel stats, and data export. Every date range is half-open — `after` inclusive, `before` exclusive — and may span at most 366 days.…
+- [samva-dev API Keys API](https://apis.io/apis/samva-dev/samva-dev-api-keys-api/) — API key management, rotation, and usage statistics
+- [samva-dev Attachments API](https://apis.io/apis/samva-dev/samva-dev-attachments-api/) — Email attachment metadata and secure download URLs
+- [samva-dev Brands API](https://apis.io/apis/samva-dev/samva-dev-brands-api/) — Brand themes, logos and footers that templates import with `samva:brand`.
+- [samva-dev Campaigns API](https://apis.io/apis/samva-dev/samva-dev-campaigns-api/) — Campaign drafts and scheduled campaign runs
+- [samva-dev Contact events API](https://apis.io/apis/samva-dev/samva-dev-contact-events-api/) — A contact's custom and lifecycle event timeline
+- [samva-dev Contact Groups API](https://apis.io/apis/samva-dev/samva-dev-contact-groups-api/) — Segment management — static and dynamic groups with membership operations
+- [samva-dev Contacts API](https://apis.io/apis/samva-dev/samva-dev-contacts-api/) — Contact CRUD, bulk operations, engagement metrics, and activity timeline
+- [samva-dev Conversations API](https://apis.io/apis/samva-dev/samva-dev-conversations-api/) — Create, update, and list conversations with your contacts.
+- [samva-dev Custom Fields API](https://apis.io/apis/samva-dev/samva-dev-custom-fields-api/) — Custom field definitions for contact metadata
+- [samva-dev Email API](https://apis.io/apis/samva-dev/samva-dev-email-api/) — Unified email domain for sending, domains, templates, threads, catch-all, blocking, forwarding, and onboarding
+- [samva-dev Events API](https://apis.io/apis/samva-dev/samva-dev-events-api/) — Custom contact event ingestion
+- [samva-dev Extension installations API](https://apis.io/apis/samva-dev/samva-dev-extension-installations-api/) — Extension versions installed into the organization, each acting as its own principal
+- [samva-dev Extensions API](https://apis.io/apis/samva-dev/samva-dev-extensions-api/) — Code that receives mailbox events and acts through the mailbox API
+- [samva-dev Feedback API](https://apis.io/apis/samva-dev/samva-dev-feedback-api/) — Reports to Samva about the API itself.
+- [samva-dev Journeys API](https://apis.io/apis/samva-dev/samva-dev-journeys-api/) — Event-triggered, per-contact email flows defined as versioned node graphs
+- [samva-dev Mailboxes API](https://apis.io/apis/samva-dev/samva-dev-mailboxes-api/) — Mailboxes: endpoints, threads, messages, drafts, and governed sends
+- [samva-dev Media API](https://apis.io/apis/samva-dev/samva-dev-media-api/) — Media objects and the presigned uploads that fill them
+- [samva-dev Messages API](https://apis.io/apis/samva-dev/samva-dev-messages-api/) — Send messages and read their delivery state and timeline.
+- [samva-dev Namespaces API](https://apis.io/apis/samva-dev/samva-dev-namespaces-api/) — Sub-tenants that confine domains, senders, mailboxes, contacts, templates, and API keys inside an organization
+- [samva-dev Newsletter domains API](https://apis.io/apis/samva-dev/samva-dev-newsletter-domains-api/) — Custom domains for newsletter archives
+- [samva-dev Newsletter issues API](https://apis.io/apis/samva-dev/samva-dev-newsletter-issues-api/) — Newsletter-owned newsletter Markdown files and their Git workspace
+- [samva-dev Newsletters API](https://apis.io/apis/samva-dev/samva-dev-newsletters-api/) — Newsletters, their consent topics, and publishing settings
+- [samva-dev Operations API](https://apis.io/apis/samva-dev/samva-dev-operations-api/) — Status of accepted asynchronous mutations
+- [samva-dev Organizations API](https://apis.io/apis/samva-dev/samva-dev-organizations-api/) — Organization management and usage statistics
+- [samva-dev Samva API](https://apis.io/apis/samva-dev/samva-dev-samva-api-api/) — The Samva API API from samva-dev — 0 operation(s) for samva api.
+- [samva-dev Scheduled Messages API](https://apis.io/apis/samva-dev/samva-dev-scheduled-messages-api/) — One-off scheduled message timers
+- [samva-dev Subscriptions API](https://apis.io/apis/samva-dev/samva-dev-subscriptions-api/) — Recipient-confirmed topic subscriptions
+- [samva-dev Templates API](https://apis.io/apis/samva-dev/samva-dev-templates-api/) — Git-backed email template projects, workspace editing, immutable publications, and delivery defaults
+- [samva-dev Topic forms API](https://apis.io/apis/samva-dev/samva-dev-topic-forms-api/) — Hosted and embedded double opt-in signup forms for topics
+- [samva-dev Topics API](https://apis.io/apis/samva-dev/samva-dev-topics-api/) — Topics and per-channel contact subscriptions
+- [samva-dev Webhooks API](https://apis.io/apis/samva-dev/samva-dev-webhooks-api/) — Customer event webhook management, testing, and delivery logs
+- [samva-dev Whoami API](https://apis.io/apis/samva-dev/samva-dev-whoami-api/) — The organization and credential behind the request.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Samva Dev Webhooks](https://apis.io/asyncapis/samva-dev/samva-dev-webhooks/)
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Samva Dev Agentic Access](https://apis.io/agentic-access/samva-dev/samva-dev-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [Contact](https://apis.io/schemas/samva-dev/samva-dev-contact/)
+- [Conversation](https://apis.io/schemas/samva-dev/samva-dev-conversation/)
+- [EmailDomainVerification](https://apis.io/schemas/samva-dev/samva-dev-email-domain-verification/)
+- [MailboxMessage](https://apis.io/schemas/samva-dev/samva-dev-mailbox-message/)
+- [Message](https://apis.io/schemas/samva-dev/samva-dev-message/)
+- [Template](https://apis.io/schemas/samva-dev/samva-dev-template/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Samva Dev Context](https://apis.io/jsonld/samva-dev/samva-dev-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [samva-dev API Rules](https://apis.io/rules/samva-dev/samva-dev-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Samva Dev Authentication](https://apis.io/security/samva-dev/samva-dev-authentication/)
+- [Samva Dev Domain Security](https://apis.io/security/samva-dev/samva-dev-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Samva Dev Plans Pricing](https://apis.io/plans/samva-dev/samva-dev-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://samva.dev/)
+- [Documentation](https://samva.dev/docs)
+- [Getting started](https://samva.dev/docs/developers)
+- [API reference](https://samva.dev/docs/api-reference)
+- [Pricing](https://samva.dev/pricing)
+- [Sign up](https://samva.dev/signup?entry=marketing_page)
+- [Support](https://samva.dev/contact)
+- [Changelog](https://samva.dev/changelog)
+- [Blog](https://samva.dev/blog)
+- [Terms of service](https://samva.dev/legal/terms)
+- [Privacy policy](https://samva.dev/legal/privacy)
+- [Status](https://status.samva.dev)
+
+## API Evangelist rating
+
+**Kin Score 68.4** — exemplar · rubric 0.25.0 · scored 2026-10-31
+
+| Facet | Score |
+|---|---|
+| Discoverability | 65.0 |
+| Contract quality | 68.6 |
+| Contract governance | 70.9 |
+| Operational transparency | 39.5 |
+| Developer ergonomics | 75.5 |
+| Access clarity | 73.2 |
+
+**Agent readiness 54.6** — agent-native
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | verified |
+| Error Semantics | verified |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | unknown |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | yes |
+| Delegated Identity | — |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | partial |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/samva-dev/](https://apis.io/providers/samva-dev/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for samva-dev: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/samva-dev/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).

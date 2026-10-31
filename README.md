@@ -64,15 +64,15 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Samva provides a developer-friendly Email API platform enabling transactional, inbound, and campaign email sending, along with webhook events and a hosted MCP server for AI agents. It offers a TypeScript SDK, CLI, and REST endpoints, supporting domain verification, template management, and integration with WhatsApp soon. Ideal for SaaS apps, support teams, and businesses needing reliable email communication.
+Samva provides a developer-friendly email API that enables applications to send transactional, scheduled, and campaign emails. It offers a TypeScript SDK, a CLI, and a REST interface, with delivery events and inbound replies delivered via signed webhooks that thread conversations. The platform includes a dashboard for managing contacts, templates, and campaigns, and supports webhook integrations for real-time email event handling.
 
-**Areas:** Company · Email · API · SaaS · Developer
+**Areas:** Company · Email · API · SaaS · Communications
 
 ## samva-dev on APIs.io
 
 Everything profiled for samva-dev is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/samva-dev/](https://apis.io/providers/samva-dev/)** — or go straight to one of the APIs or properties below.
 
-### APIs (34)
+### APIs (33)
 
 - [samva-dev Agents API](https://apis.io/apis/samva-dev/samva-dev-agents-api/) — Agents that answer conversations on your mailbox endpoints, with a draft, published versions, and rules for supervision, hours, and staff takeover
 - [samva-dev Analytics API](https://apis.io/apis/samva-dev/samva-dev-analytics-api/) — Messaging analytics, channel stats, and data export. Every date range is half-open — `after` inclusive, `before` exclusive — and may span at most 366 days.…
@@ -100,7 +100,6 @@ Everything profiled for samva-dev is published on APIs.io rather than in this re
 - [samva-dev Newsletters API](https://apis.io/apis/samva-dev/samva-dev-newsletters-api/) — Newsletters, their consent topics, and publishing settings
 - [samva-dev Operations API](https://apis.io/apis/samva-dev/samva-dev-operations-api/) — Status of accepted asynchronous mutations
 - [samva-dev Organizations API](https://apis.io/apis/samva-dev/samva-dev-organizations-api/) — Organization management and usage statistics
-- [samva-dev Samva API](https://apis.io/apis/samva-dev/samva-dev-samva-api-api/) — The Samva API API from samva-dev — 0 operation(s) for samva api.
 - [samva-dev Scheduled Messages API](https://apis.io/apis/samva-dev/samva-dev-scheduled-messages-api/) — One-off scheduled message timers
 - [samva-dev Subscriptions API](https://apis.io/apis/samva-dev/samva-dev-subscriptions-api/) — Recipient-confirmed topic subscriptions
 - [samva-dev Templates API](https://apis.io/apis/samva-dev/samva-dev-templates-api/) — Git-backed email template projects, workspace editing, immutable publications, and delivery defaults
@@ -155,11 +154,23 @@ Authentication, trust centre, and vulnerability disclosure.
 - [Samva Dev Authentication](https://apis.io/security/samva-dev/samva-dev-authentication/)
 - [Samva Dev Domain Security](https://apis.io/security/samva-dev/samva-dev-domain-security/)
 
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Samva Dev Scopes](https://apis.io/scopes/samva-dev/samva-dev-scopes/)
+
 #### Plans and pricing (1)
 
 Published plans, tiers and prices.
 
 - [Samva Dev Plans Pricing](https://apis.io/plans/samva-dev/samva-dev-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Samva Dev Rate Limits](https://apis.io/rate-limits/samva-dev/samva-dev-rate-limits/)
 
 ## Where to find this API
 
@@ -167,11 +178,11 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 - [Website](https://samva.dev/)
 - [Documentation](https://samva.dev/docs)
-- [Getting started](https://samva.dev/docs/developers)
-- [API reference](https://samva.dev/docs/api-reference)
+- [Getting started](https://samva.dev/docs/channels/email/automatic-dns-setup)
+- [API reference](https://api.samva.dev/v1/openapi.json)
 - [Pricing](https://samva.dev/pricing)
-- [Sign up](https://samva.dev/signup?entry=marketing_page)
-- [Support](https://samva.dev/contact)
+- [Sign up](https://samva.dev/signup)
+- [Support](https://samva.dev/solutions/support)
 - [Changelog](https://samva.dev/changelog)
 - [Blog](https://samva.dev/blog)
 - [Terms of service](https://samva.dev/legal/terms)
@@ -180,18 +191,18 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 68.4** — exemplar · rubric 0.25.0 · scored 2026-10-31
+**Kin Score 75.1** — exemplar · rubric 0.25.0 · scored 2026-10-31
 
 | Facet | Score |
 |---|---|
 | Discoverability | 65.0 |
-| Contract quality | 68.6 |
+| Contract quality | 68.7 |
 | Contract governance | 70.9 |
-| Operational transparency | 39.5 |
-| Developer ergonomics | 75.5 |
+| Operational transparency | 67.9 |
+| Developer ergonomics | 82.6 |
 | Access clarity | 73.2 |
 
-**Agent readiness 54.6** — agent-native
+**Agent readiness 57.0** — agent-native
 
 | Agent-readiness dimension | Result |
 |---|---|
@@ -203,7 +214,7 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Idempotency | verified |
 | Error Semantics | verified |
 | OpenAPI Examples | — |
-| Rate Limit Signal | — |
+| Rate Limit Signal | documented (partial credit) |
 | Event Surface Described | unknown |
 | Agent Skills | unknown |
 | Well Known Catalog | yes |
@@ -217,7 +228,7 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Pagination Ratio | partial |
 | Operation Distinctiveness | distinct |
 
-**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+**Regulatory alignment 34.3** — Horizontal (data, software, accessibility, platform)
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/samva-dev/](https://apis.io/providers/samva-dev/).
 
